@@ -4,7 +4,7 @@ class AttendingClassesFlow(FlowSpec):
 
     @step
     def start(self):
-        self.name = "aljawari"
+        self.name = "angga prasetyo"
         print(f"Memulai proses mengikuti kuliah informatika untuk {self.name}.")
         self.next(self.pay_tuition)
 
